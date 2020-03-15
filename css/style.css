@@ -1,0 +1,174 @@
+body {
+  width: 900px;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+ 
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  margin: 10px auto;
+}
+
+header > div > h2 {
+  font-size: 35px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+header div {
+  vertical-align: top;
+  display: inline-block;
+  height: inherit;
+}
+
+#header-box-left2 {
+  width: 620px;
+}
+
+#header-box-left2 > p {
+  font-size: 10px;
+}
+
+#header-box-right1 > ul > li, #header-box-right2 > ul > li {
+  display: inline-block;
+  list-style: none;
+  margin-top: 10px;
+}
+
+#header-box-right2 {
+  margin-left: 5px;
+}
+
+#hr-div {
+  width: inherit;
+  height: 15px;
+  background-image: url("/img/hr-img.png");
+  background-repeat: repeat;
+}
+
+#title-box {
+  padding-top: 45px;
+}
+
+#title-box > div {
+  font-size: 12px;
+  color: rgb(179, 178, 178);
+}
+
+#tb-right {
+  float: right;
+}
+
+section > img {
+  margin: 30px auto;
+}
+
+#instructions {
+  color: slategray;
+  line-height: 1.5;
+  font-size: 20px;
+  text-indent: 2em;
+}
+
+#recipe-box {
+  margin: 30px auto;
+  width: 100%;
+  height: 305px;
+  background-image: url("/img/list-bg.png");
+  background-repeat: repeat;
+}
+
+input[type=checkbox]:checked + label.strikethrough{
+  text-decoration: line-through;
+}
+
+#recipe-box > div {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 1.45;
+}
+
+#recipe-box ul {
+  list-style-type: none;
+  font-size: 22px;
+  width: inherit;
+}
+
+#recipe-box-left {
+  width: 375px;
+  margin-top: 35px;
+  margin-left: 60px;
+}
+
+#recipe-box-right {
+  width: 425px;
+  margin-top: 35px;
+
+}
+
+#bottom-box {
+  height: 80px;
+  margin: 30px auto;
+}
+
+#bottom-box div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#bottom-box-left {
+  padding-top: 5px;
+
+}
+
+#bottom-box-middle {
+  margin-left: 10px;
+  line-height: 1.5;
+  width: 600px;
+}
+
+#bottom-box-middle > p {
+  color: slategray;
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+#bottom-box-right {
+  vertical-align: middle;
+}
+
+button {
+  border-style: solid;
+  color: white;
+  background-color: rgb(199, 113, 113);
+  padding: 18px 40px;
+  margin: 15px auto;
+  font-size: 16px;
+}
+
+footer {
+  clear: left;
+  height: 150px;
+  line-height: 1.5;
+  font-size: 12px;
+  color: rgb(179, 178, 178);
+  text-align: center;
+}
+
+footer img {
+  margin: 20px;
+}
+
